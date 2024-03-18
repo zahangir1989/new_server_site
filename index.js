@@ -66,7 +66,7 @@ app.post("/rooms", async (req, res) => {
 });
 app.post("/create-product", async (req, res) => {
   const product = req.body;
-  //  console.log(room);
+   console.log(product);
   console.log(product);
   res.send(product);
 });
